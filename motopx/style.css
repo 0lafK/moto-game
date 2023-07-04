@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.game {
+    height: 100vh;
+    width: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.game-board {
+    position: relative;
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.player {
+    position: absolute;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-image: url(moto1.png);
+    background-size: cover;
+    z-index: 1000;
+    bottom: 0px;
+    justify-content: center;
+}.player img {
+    justify-content: center;
+}
+
+.bot {
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    background-size: cover;
+    z-index: 999;
+}
+
+.road {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.road-column {
+    width: 300px;
+    height: 800px;
+    background-color: gray;
+    border-right: 4px dashed white;
+    display: grid;
+    justify-content: center;
+}
+
+.details {
+    color: aliceblue;
+    font-size: 1.2em;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #4a505a;
+
+}
+
+
+
+
+
+/* {
+    border: 1px solid red;
+}
